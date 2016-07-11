@@ -7,7 +7,7 @@ set stick_radius = 0.3
 set mesh_radius = 0.02
 bg_color white
 
-load ../<pdb>.pdb, model
+load <pdb>.pdb, model
 create antigen_chain, chain <antigen_chain>
 create antibody_chains, chain <antibody_chains>
 delete model
